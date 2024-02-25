@@ -1,0 +1,41 @@
+:root {
+    --cadetBlue: #25283D;
+    --light: #414667;
+    --white:#EEE5E9;
+  }
+.navbar-brand{
+    color: var(--cadetBlue);
+    font-size: 1.3em;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: var(--white);
+    backdrop-filter:blur(30px); 
+    border-radius: 25px;
+    padding: 10px;
+    margin: 1%;
+}
+.nav-item{
+    font-size: 0.9em;
+    transition:all linear 0.1s;
+}
+.nav-item:hover{
+    font-size: 1em;
+    font-weight: 600;
+}
+.navbar-nav{
+    gap: 16px;
+}
+.btn{
+    background-color: var(--cadetBlue);
+    color: var(--white);
+    border-radius: 90px;
+    padding: 5px 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.btn:hover, .btn:active{
+    background-color: var(--light);
+    color: var(--white);
+}
